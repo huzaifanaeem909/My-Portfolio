@@ -2,11 +2,12 @@ import { Container } from "../container";
 import { MotionUp } from "../animations";
 import { SmallGridBackground } from "../bg-patterns";
 import { ContactForm } from "../form";
-import { FaGithub, FaInstagram, FaLinkedinIn, FaMediumM } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 import { Heading } from "../";
 import { PersonalInfo, SocialLink } from "@/lib/types";
 import { sortByPriority } from "@/lib/utils";
+import { FaMedium } from "react-icons/fa6";
 
 interface Props {
     personalInfo: PersonalInfo;
@@ -22,7 +23,7 @@ const getSocialIcons = (title: string) => {
         case "Instagram":
             return <FaInstagram size={30} />;
         default:
-            return <FaMediumM size={30} />;
+            return <FaMedium size={30} />;
     }
 };
 
