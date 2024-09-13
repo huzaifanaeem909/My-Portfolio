@@ -16,7 +16,7 @@ export function EmailTemplateForUser({ name, subject, message }: EmailTemplatePr
       <Text>Subject: {subject}</Text>
       <Text>Message: {message}</Text>
       <Text>Best regards,</Text>
-      <Text>Abhishek Bhardwaj</Text>
+      <Text>Muhammad Huzaifa</Text>
     </Html>
   );
 };

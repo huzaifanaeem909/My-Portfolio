@@ -1,10 +1,10 @@
 {
   "name": "portfolio",
-  "version": "4.0.0",
+  "version": "1.0.0",
   "private": true,
   "author": {
-    "name": "Abhishek",
-    "github": "https://github.com/abhishek1350"
+    "name": "Muhammad Huzaifa",
+    "github": "https://github.com/huzaifanaeem909"
   },
   "scripts": {
     "dev": "next dev",
