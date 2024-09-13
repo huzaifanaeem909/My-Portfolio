@@ -38,7 +38,7 @@ const getIconColors = (title: string) => {
         case "Instagram":
             return "text-pink-500 hover:text-pink-700";
         default:
-            return "text-white-500 hover:text-white-700";
+            return "text-white-500 hover:text-gray-500";
     }
 };
 
