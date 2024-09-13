@@ -21,7 +21,9 @@ export function Hero({ data }: Props) {
         <div className="flex flex-col items-center justify-center w-full">
           <MotionUp delay={0}>
             <h1 className="text-3xl  md:text-6xl text-neutral-700 dark:text-blue-100 !leading-snug text-center mx-auto font-[900]">
-              Hi, I'm {data.name.split(" ")[0]}, a Self Taught
+              Hi, I'm {data.name}.
+              <br />
+              Self proclaimed, Code polyglot!
               <br />
               <Highlight delay={1.8}>
                 {data.position}
@@ -31,7 +33,7 @@ export function Hero({ data }: Props) {
 
           <MotionUp delay={0.3} className="my-4">
             <h6 className="text-center !leading-7 md:!leading-10  font-semibold text-2 lg:text-3xl max-w-xl  text-blue-100 ">
-              Based in {data.address},
+              Based in {data.address}
               <br />
               Specialized in <Highlight delay={1.8}>React</Highlight> and{" "}
               <Highlight delay={1.8}>Next.js</Highlight>
