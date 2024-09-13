@@ -18,11 +18,11 @@ const getSocialIcons = (title: string) => {
         case "GitHub":
             return <FaGithub size={30} />;
         case "Twitter":
-            return <FaMedium size={30} />;
+            return <FaLinkedinIn size={30} />;
         case "Instagram":
             return <FaInstagram size={30} />;
         default:
-            return <FaLinkedinIn size={30} />;
+            return <FaMedium size={30} />;
     }
 };
 
