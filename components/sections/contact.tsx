@@ -2,7 +2,7 @@ import { Container } from "../container";
 import { MotionUp } from "../animations";
 import { SmallGridBackground } from "../bg-patterns";
 import { ContactForm } from "../form";
-import { FaGithub, FaMedium, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn, FaMediumM } from "react-icons/fa";
 import Link from "next/link";
 import { Heading } from "../";
 import { PersonalInfo, SocialLink } from "@/lib/types";
@@ -22,7 +22,7 @@ const getSocialIcons = (title: string) => {
         case "Instagram":
             return <FaInstagram size={30} />;
         default:
-            return <FaMedium size={30} />;
+            return <FaMediumM size={30} />;
     }
 };
 
@@ -75,14 +75,14 @@ export function Contact({ personalInfo, socialLinks }: Props) {
                                     </a>
                                 </div>
 
-                                <div className="w-full lg:w-1/2 px-6 mt-4">
+                                {/* <div className="w-full lg:w-1/2 px-6 mt-4">
                                     <h6 className="title-font font-semibold text-blue-100 tracking-widest text-xs">
                                         WORKING HOURS
                                     </h6>
                                     <p className="text-blue-100 leading-relaxed">
                                         {personalInfo.workingHours}
                                     </p>
-                                </div>
+                                </div> */}
 
                                 <div className="w-full lg:w-1/2 px-6 mt-4">
                                     <h6 className="title-font font-semibold text-blue-100  tracking-widest text-xs">
