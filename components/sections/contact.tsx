@@ -32,13 +32,13 @@ const getSocialIcons = (title: string) => {
 const getIconColors = (title: string) => {
     switch (title) {
         case "GitHub":
-            return "text-gray-200 hover:text-gray-700";
-        case "Twitter":
+            return "text-gray-200 hover:text-gray-500";
+        case "LinkedIn":
             return "text-blue-500 hover:text-blue-700";
         case "Instagram":
             return "text-pink-500 hover:text-pink-700";
         default:
-            return "text-blue-500 hover:text-blue-700";
+            return "text-white-500 hover:text-white-700";
     }
 };
 
