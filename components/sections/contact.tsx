@@ -7,7 +7,7 @@ import Link from "next/link";
 import { Heading } from "../";
 import { PersonalInfo, SocialLink } from "@/lib/types";
 import { sortByPriority } from "@/lib/utils";
-import { FaMedium } from "react-icons/fa6";
+import { FaMedium, FaXTwitter } from "react-icons/fa6";
 
 interface Props {
     personalInfo: PersonalInfo;
@@ -22,6 +22,8 @@ const getSocialIcons = (title: string) => {
             return <FaLinkedinIn size={30} />;
         case "Instagram":
             return <FaInstagram size={30} />;
+        case "X":
+            return <FaXTwitter size={30} />;
         default:
             return <FaMedium size={30} />;
     }
