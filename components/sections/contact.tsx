@@ -17,7 +17,7 @@ const getSocialIcons = (title: string) => {
     switch (title) {
         case "GitHub":
             return <FaGithub size={30} />;
-        case "Twitter":
+        case "LinkedIn":
             return <FaLinkedinIn size={30} />;
         case "Instagram":
             return <FaInstagram size={30} />;
