@@ -16,7 +16,7 @@ export function Testimonials({ data }: Props) {
         <GridBackground className="py-10">
             <Container>
                 <MotionUp delay={0.2}>
-                    <Heading text="Few Nice Words" />
+                    <Heading text="Kind words from satisfied clients" />
 
                     <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-12">
                         {sortByPriority(data).map((item) => (
