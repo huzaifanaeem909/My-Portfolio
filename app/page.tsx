@@ -22,7 +22,7 @@ export default async function page() {
               <Projects projects={data.projects}/>
             </ModalProvider>
             <Testimonials data={data.testimonials}/>
-            <Contact personalInfo={data.personalInfo} socialLinks={data.socialLinks}/>
+            <Contact socialLinks={data.socialLinks}/>
           </>
         ) : null
       }
