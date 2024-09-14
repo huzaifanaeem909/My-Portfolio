@@ -26,10 +26,10 @@ interface Props {
 
 export function ExperienceSkills({ experiences, skills }: Props) {
     return (
-        <section className="w-full py-10" id="about">
+        <section className="w-full py-10 mt-10" id="about">
             <Container>
                 <MotionUp delay={0.1}>
-                    <Heading text="Career History" />
+                    <Heading text="My Work Experience" />
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mt-12">
                         <div className="flex justify-center items-start">
