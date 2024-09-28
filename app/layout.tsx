@@ -6,7 +6,6 @@ import { FloatingNav } from "@/components/index";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import Chat from "../components/Chat";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -59,7 +58,6 @@ export default function RootLayout({
           {children}
           <FloatingNav />
         </ThemeProvider>
-        <Chat />
         <Analytics />
         <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_ID as string} />
         <SpeedInsights/>
