@@ -36,7 +36,7 @@ export function Hero({ data }: Props) {
               Based in {data.address}
               <br />
               Specialized in <Highlight delay={1.8}>React</Highlight> and{" "}
-              <Highlight delay={1.8}>Next.js</Highlight>
+              <Highlight delay={1.8}>Django</Highlight>
             </h6>
           </MotionUp>
 
